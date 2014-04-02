@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Makers Academy Commits Board</title>
+		<link href='leaderboard.css' rel='stylesheet'>
+		<script src='https://code.jquery.com/jquery-2.1.0.min.js'></script>
+		<script src='leaderboard.js'></script>
+		<script src='mustache.js'></script>
+	</head>
+
+	<body>
+		<div id ="container">
+			<header>Are you committed?</header>
+			
+			<form id = 'add_profile'>
+				<input id='username' placeholder = 'Enter a Github username'>
+				<button type ='submit'>Load profile</button>
+			</form>
+			
+			<div id='profile_results'>
+				<template id='profile_template'>
+					<div class="profile">
+						<div class = "left">
+							<img src = "{{ avatar_url }}" > 
+						</div>
+						<div class = "right">
+							<h3>Commits: {{ total }}</h3>
+							<h3>Name: {{ login }}</h3>
+							<h3>Followers: {{ followers }}</h3>
+						</div>
+					</div>
+				</template>
+			</div>
+
+		</div>
+	</body>
+</html>

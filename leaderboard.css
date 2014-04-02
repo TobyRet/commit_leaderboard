@@ -1,0 +1,79 @@
+body {
+	background: #white;
+}
+
+#username{
+	border: 2px solid #bdc3c7;
+	color: #34495e;
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	line-height: 1.467;
+	padding: 8px 12px;
+	height: 30px;
+	-webkit-appearance: none;
+	border-radius: 6px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+	transition: border .25s linear, color .25s linear, background-color .25s linear;
+}
+
+header {
+	font-size: 40px;
+	font-family: Arial;
+	margin-bottom: 40px;
+}
+
+h3 {
+	font-family: Arial;
+	font-size: 20px;
+}
+
+#container {
+	width: 80%;
+	margin: auto;
+}
+
+button {
+	height: 50px;
+	padding: 0;
+	border: none;
+	background: none;
+	padding: 10px 19px;
+	font-size: 17px;
+	line-height: 1.471;
+	border-radius: 6px;
+	color: #ffffff;
+	background-color: #1abc9c;
+	border-color: none;
+	-webkit-font-smoothing: subpixel-antialiased;
+	-webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+	transition: border .25s linear, color .25s linear, background-color .25s linear;
+}
+
+button:hover {
+	background-color: white;
+	border: 2px solid #1abc9c;
+	color: #1abc9c;
+}
+
+.profile_results .left {
+	float: left;
+	width: 20%;
+}
+
+.profile_results .right {
+	float: right;
+	width: 80%;
+}
+
+.profile_results {
+	margin-top: 50px;
+}
+
+
+
+
+
+
+
